@@ -1,0 +1,119 @@
+{
+  "charts": [
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "webMapLayerId": "1845cd1b10e-layer-68",
+      "mode": "count",
+      "name": "Titik Rawan Longsor",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true
+          }
+        }
+      ],
+      "categoryField": "lokasi",
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          192,
+          80,
+          77,
+          255
+        ],
+        "outline": {
+          "color": [
+            160,
+            63,
+            60,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "1845cdb2f8f-layer-83",
+      "mode": "category",
+      "name": "Bahaya Longsor",
+      "highLightColor": "#dd1f1f",
+      "types": [
+        {
+          "type": "pie",
+          "display": {
+            "colors": [
+              "#eb7b3a",
+              "#febf29",
+              "#72ad4c",
+              "#9c4618",
+              "#987214",
+              "44682e"
+            ],
+            "showDataLabel": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "categoryField": "kelas",
+      "operation": "sum",
+      "valueFields": [
+        "luas_ha"
+      ],
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    }
+  ]
+}
